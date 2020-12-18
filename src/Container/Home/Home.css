@@ -1,0 +1,52 @@
+.wrapper{
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 9%, rgba(0,169,189,1) 83%);
+}
+
+.jumbotron{
+    background: url(../../Img/t-jumbotron.jpg);
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+
+.glass{
+    background: rgba( 58, 236, 170, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    color: black;
+}
+
+.glass:hover{
+    background-color: rgba( 58, 236, 170, 0.40 );
+    color: white;
+    -webkit-backdrop-filter: blur(0);
+    backdrop-filter: blur(0);
+}
+
+.home-wrapper{
+    margin: auto;
+    padding: 20px;
+    width: 720px;
+    height: max-content;
+    background: rgba( 206, 232, 229, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 720px){
+    .home-wrapper{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .home-wrapper{
+        width: 360px;
+    }
+}
+
